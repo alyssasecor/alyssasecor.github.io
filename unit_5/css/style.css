@@ -47,7 +47,7 @@ nav {
 	clear: both;
 	margin: 2em auto;
 	width: 55em;
-	margin-bottom: 4.5em;
+	margin-bottom: 5em;
 }
 nav a {
 	color: black;
@@ -75,7 +75,7 @@ footer img {
 	width: 4em;
 	margin: 2em 2em 1em 2em;
 }
-#buttons a {
+#home_buttons a {
 	border: 2px solid;
 	color: white;
 	display: inline-block;
