@@ -17,7 +17,7 @@ body {
 	 text-align: center;
 }
 header {
-	background: url(images/background.jpg);
+	background: url(background.jpg);
 	background-size: cover;
 	color:#fff;
 	height: 100vh;
@@ -46,11 +46,13 @@ nav {
 	border-bottom: 2px solid #8DC9C9;
 	clear: both;
 	margin: 2em auto;
-	padding: 2em;
 	width: 55em;
+	margin-bottom: 4.5em;
 }
 nav a {
 	color: black;
+	display: block;
+	float: left;
 	font-family: 'montserat-l' sans-serif;
 	letter-spacing: .5em;
 	padding: 2em;
@@ -118,10 +120,13 @@ footer img {
 }
 #about_me {
 	float: left;
+	text-align: right;
+	margin-top: 10em;
 }
 #what_i_do {
 	float: right;
-	padding: ;
+	margin: 3em;
+	text-align: left;
 }
 #gallery h1 {
 	padding: 1em 2em 2em 2.5em;
@@ -165,10 +170,15 @@ footer img {
 	margin: auto;
 	max-width: 45%;
 }
-#bottom_nav {
-	margin-bottom: 4.5em;
-}
 .gallery_headers {
 	padding: 1em 2em 2em 4em;
 	text-align: left;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
