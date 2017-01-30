@@ -44,6 +44,7 @@ p {
 nav {
 	border-top: 2px solid #8DC9C9;
 	border-bottom: 2px solid #8DC9C9;
+	clear: both;
 	margin: 2em auto;
 	padding: 2em;
 	width: 55em;
@@ -54,6 +55,9 @@ nav a {
 	letter-spacing: .5em;
 	padding: 2em;
 	text-decoration: none;
+}
+nav a:hover {
+	color: #8DC9C9;
 }
 div #description {
 	color: #8DC9C9;
@@ -111,6 +115,13 @@ footer img {
 }
 #about span {
 	color: #8DC9C9;
+}
+#about_me {
+	float: left;
+}
+#what_i_do {
+	float: right;
+	padding: ;
 }
 #gallery h1 {
 	padding: 1em 2em 2em 2.5em;
