@@ -91,13 +91,9 @@ footer img {
 	width: 10em;
 }
 #arrow {
-	color: rgba(255,255,255,0.7);
-	font-family: 'montserat-r', sans-serif;
-	font-size: 1.5em;
 	margin: 3em 1em;
 	padding: 1em 0;
-	text-decoration: none;
-	width: 10em;
+	width: 5em;
 }
 #about h1 {
 	padding-top: 2em;
