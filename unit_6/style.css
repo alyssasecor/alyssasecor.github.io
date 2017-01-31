@@ -145,6 +145,9 @@ footer img {
 	margin: auto;
 	width: 50%;
 }
+#gallery img:hover {
+	opacity: 0.8;
+}
 #contact {
 	clear: both;
 }
