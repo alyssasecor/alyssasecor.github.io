@@ -42,8 +42,7 @@ nav {
 	border-top: 2px solid #8DC9C9;
 	border-bottom: 2px solid #8DC9C9;
 	clear: both;
-	margin: 3em 0;
-	text-align: center;
+	margin: 3em auto;
 	width: 55em;
 }
 nav a {
@@ -54,7 +53,6 @@ nav a {
 	letter-spacing: .5em;
 	padding: 2em;
 	text-decoration: none;
-	width: 180px;
 }
 nav a:hover {
 	color: #8DC9C9;
