@@ -36,15 +36,13 @@ h1 {
 }
 p {
 	font-family: 'montserat-l', sans-serif;
-	font-weight: normal;
 	margin: 2em auto;
-	/*width: 30em;*/
 }
 nav {
 	border-top: 2px solid #8DC9C9;
 	border-bottom: 2px solid #8DC9C9;
 	clear: both;
-	margin-bottom: 5em;
+	margin: 3em 0;
 	text-align: center;
 	width: 55em;
 }
@@ -64,16 +62,21 @@ nav a:hover {
 div #description {
 	color: #8DC9C9;
 }
+footer {
+	clear: both;
+}
 footer h2{
 	color: #8DC9C9;
 	font-family: 'Lora', serif;
 	font-size: 1em;
 	font-weight: normal;
 	letter-spacing: .5em;
+	padding-top: 2em;
 }
 footer img {
 	width: 4em;
 	margin: 2em 2em 1em 2em;
+	padding-top: 2em;
 }
 #home_buttons a {
 	border: 2px solid;
@@ -138,20 +141,21 @@ footer img {
 }
 #gallery img {
 	display: inline;
-	margin: auto;
-	max-width: 45%;
-	opacity: 1.0;
     filter: alpha(opacity=100);
+	float: left;
+	margin: auto;
+	opacity: 1.0;
+	width: 50%;
 }
 #gallery img:hover {
 	opacity: 0.3;
     filter: alpha(opacity=30);
 }
 #contact {
-	padding: 2em;
+	clear: both;
 }
-#contact h1, h2, p {
-	padding: .5em;
+#contact h1 {
+	padding: .5em .5em .5em .5em;
 }
 #contact h2 {
 	color: #8DC9C9;
@@ -159,6 +163,11 @@ footer img {
 	font-size: 1em;
 	font-weight: normal;
 	letter-spacing: .5em;
+	padding: .5em;
+}
+#contact p {
+	padding: .5em;
+	width: 30em;
 }
 #contact img {
 	width: 4em;
@@ -171,10 +180,14 @@ footer img {
 }
 #images img{
 	display: inline;
+    filter: alpha(opacity=100);
+	float: left;
 	margin: auto;
-	max-width: 45%;
+	opacity: 1.0;
+	width: 50%;
 }
 .gallery_headers {
+	clear: both;
 	padding: 1em 2em 2em 4em;
 	text-align: left;
 }
