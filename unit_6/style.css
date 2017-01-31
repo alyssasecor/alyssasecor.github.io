@@ -1,0 +1,210 @@
+@font-face {
+	font-family: montserat-r;
+	src: url(fonts/Montserrat-Regular.otf);
+}
+@font-face {
+	font-family: montserat-l;
+	src: url(fonts/Montserrat-ExtraLight.otf);
+}
+@import url('https://fonts.googleapis.com/css?family=Lora');
+* {
+	box-sizing: border-box;
+	margin: 0;	
+	padding: 0;
+}
+body {
+	 font-size: 16px; /*1em=16px*/
+	 text-align: center;
+}
+header {
+	background: url(images/background.jpg);
+	background-size: cover;
+	color:#fff;
+	height: 100vh;
+	padding-top: 8em;
+}
+header img {
+	opacity: 0.8;
+	padding-bottom: 1em;
+	width: 35em;
+}
+h1 {
+	font-family: 'montserat-r', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	letter-spacing: .5em;
+}
+p {
+	font-family: 'montserat-l', sans-serif;
+	margin: auto;
+}
+nav {
+	border-top: 2px solid #52adad;
+	border-bottom: 2px solid #52adad;
+	clear: both;
+	display: inline-block;
+	margin: 3em 3em 1em 3em;
+}
+nav a {
+	color: black;
+	display: block;
+	font-family: 'montserat-l' sans-serif;
+	float: left;
+	letter-spacing: .5em;
+	padding: 2em;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #52adad;
+}
+div #description {
+	color: #52adad;
+}
+footer {
+	clear: both;
+}
+footer h2{
+	color: #52adad;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: .5em;
+	padding-top: 2em;
+}
+footer img {
+	width: 4em;
+	margin: 2em 2em 1em 2em;
+	padding-top: 2em;
+}
+#home_buttons a {
+	border: 2px solid;
+	color: white;
+	display: inline-block;
+	font-family: 'montserat-r', sans-serif;
+	font-size: 1.5em;
+	margin: 3em 1em;
+	opacity: 0.8;
+	padding: 1em 0;
+	text-decoration: none;
+	width: 10em;
+}
+#arrow {
+	margin: 3em 1em;
+	padding: 1em 0;
+	width: 5em;
+}
+#about h1 {
+	padding-bottom: 1em;
+}
+#about h2 {
+	font-family: 'montserat-l', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	letter-spacing: .5em;
+}
+#about h3 {
+	color: #52adad;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	letter-spacing: 3px;
+	padding-top: 1em;
+}
+#about img {
+	opacity: 0.6;
+	width: 100vw;
+}
+#description p{
+	color: #52adad;
+	font-family: 'montserat-r', sans-serif;
+}
+#about {
+	padding: 5em 2em 5em 2em;
+}
+#about_me {
+	float: left;
+	text-align: right;
+	padding: 8em 2em 0 0 ;
+	width: 30%;
+}
+#what_i_do {
+	border-left: 2px solid black;
+	float: left;
+	text-align: left;
+	padding: 5em 0em 5em 2em;
+	width: 70%;
+}
+#middle_nav {
+	margin-bottom: 6em;
+}
+#gallery h1 {
+	padding: 0 2em 1em 2.5em;
+	text-align: center;
+}
+#gallery img {
+	float: left;
+	margin: auto;
+	width: 50%;
+}
+#contact {
+	clear: both;
+}
+#contact h1 {
+	padding: 1em;
+}
+#contact h2 {
+	color: #52adad;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: .5em;
+	padding: 1em;
+}
+#contact p {
+	padding: 1em;
+	width: 30em;
+}
+#contact img {
+	width: 4em;
+	margin: 2em;
+}
+#here {
+	border-bottom: 1px solid #000;
+	color: #000;
+	text-decoration: none;
+}
+#bottom_nav {
+	margin-bottom: 5em;
+}
+#images img{
+	display: inline;
+	float: left;
+	margin: auto;
+	width: 50%;
+}
+.galleries a{
+	clear: both;
+	color: black;
+	display: inline-block;
+	font-family: 'montserat-r', sans-serif;
+	font-size: .8em;
+	letter-spacing: .5em;
+	text-decoration: none;
+	padding: 0 1em 3em 1em;
+}
+.galleries a:hover {
+	color: #52adad;
+}
+.gallery_headers {
+	clear: both;
+	padding: 1em 2em 2em 4em;
+	text-align: center;
+}
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
