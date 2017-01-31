@@ -39,8 +39,8 @@ p {
 	margin: auto;
 }
 nav {
-	border-top: 2px solid #8DC9C9;
-	border-bottom: 2px solid #8DC9C9;
+	border-top: 2px solid #52adad;
+	border-bottom: 2px solid #52adad;
 	clear: both;
 	margin: 3em auto;
 	width: 44em;
@@ -55,16 +55,16 @@ nav a {
 	text-decoration: none;
 }
 nav a:hover {
-	color: #8DC9C9;
+	color: #52adad;
 }
 div #description {
-	color: #8DC9C9;
+	color: #52adad;
 }
 footer {
 	clear: both;
 }
 footer h2{
-	color: #8DC9C9;
+	color: #52adad;
 	font-family: 'Lora', serif;
 	font-size: 1em;
 	font-weight: normal;
@@ -103,7 +103,7 @@ footer img {
 	letter-spacing: .5em;
 }
 #about h3 {
-	color: #8DC9C9;
+	color: #52adad;
 	font-family: 'Lora', serif;
 	font-weight: normal;
 	letter-spacing: 3px;
@@ -114,13 +114,13 @@ footer img {
 	width: 100vw;
 }
 #description {
-	color: #8DC9C9;
+	color: #52adad;
 }
 #about_me {
 	border-right: 2px solid black;
 	float: left;
 	text-align: right;
-	margin: 10em 0 10em 0;
+	margin: 8.5em 0 10em 0;
 	padding: 7em 2em 7em 5em;
 	width: 35em;
 }
@@ -154,7 +154,7 @@ footer img {
 	padding: 1em;
 }
 #contact h2 {
-	color: #8DC9C9;
+	color: #52adad;
 	font-family: 'Lora', serif;
 	font-size: 1em;
 	font-weight: normal;
