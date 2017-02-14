@@ -310,6 +310,12 @@ div h3{
 	visibility; hidden;
 }
 
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+}
+
 @media only screen and (max-width: 800px) {
 	#footer_nav a {
 		font-family: 'montserat-l', sans-serif;
@@ -391,8 +397,3 @@ div h3{
 	}
 }
 
-@media only screen and (min-width: 1800px) {
-	body {
-		font-size: 24px;
-	}
-}
