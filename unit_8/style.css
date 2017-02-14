@@ -310,6 +310,18 @@ div h3{
 	visibility; hidden;
 }
 
+@media only screen and (max-width: 800px) {
+	#footer_nav a {
+		font-family: 'montserat-l', sans-serif;
+		font-size: 14px;
+		float: none;
+		letter-spacing: .5em;
+		padding: 1em;
+		text-align: center;
+
+	}
+}
+
 @media only screen and (max-width: 650px) {
 	form, input, textarea {
 		width: 22em;
@@ -336,14 +348,6 @@ div h3{
 
 	#images img{
 		width: 100%;
-	}
-	#footer_nav a {
-		font-family: 'montserat-l', sans-serif;
-		font-size: 14px;
-		float: none;
-		letter-spacing: .5em;
-		padding: 1em;
-		text-align: center;
 	}
 }
 
