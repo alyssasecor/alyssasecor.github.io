@@ -51,12 +51,6 @@ footer h2{
 	padding-top: 2em;
 }
 
-@media only screen and (max-width: 425px) {
-	footer h2{
-		font-size: .7em;
-		letter-spacing: .2em;
-	}
-}
 
 footer img {
 	margin: 2em 2em 1em 2em;
@@ -125,18 +119,6 @@ div h3{
     opacity:.9;
 }
 
-@media only screen and (max-width: 650px) {
-	form, input, textarea {
-		width: 22em;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	form, input, textarea {
-		width: 15em;
-	}
-}
-
 #background_logo {
 	background: url(images/background.jpg);
 	background-size: cover;
@@ -157,14 +139,6 @@ div h3{
 	margin: 1.5em;
 }
 
-@media only screen and (max-width: 425px) {
-	#header_nav {
-		border: none;
-		display: block;
-		text-align: center;
-		margin: .5em;
-	}
-}	
 
 #header_nav li {
 	display:inline-block;
@@ -177,21 +151,6 @@ div h3{
 	margin: 1em;
 }
 
-@media only screen and (max-width: 650px) {
-	#header_nav a {
-		color: black;
-		padding: 1em;
-		margin: .5em;
-	}
-}
-
-@media only screen and (max-width: 365px) {
-	#header_nav a {
-		color: black;
-		padding: .5em;
-		margin: .3em;
-	}
-}
 
 #header_nav a:hover {
 	color: #52adad;
@@ -283,12 +242,6 @@ div h3{
 	padding: 1em 0 .5em 0;
 }
 
-@media only screen and (max-width: 650px) {
-	#contact h1, footer h1 {
-		width: 10em;
-		margin: auto;
-	}
-}
 
 #contact h2 {
 	color: #52adad;
@@ -299,29 +252,12 @@ div h3{
 	padding: 0 0 3em 0;
 }
 
-@media only screen and (max-width: 650px) {
-	#contact h2, footer h2 {
-		padding: 0 0 0 0;
-		visibility: hidden;
-	}
-}
 
 #contact p {
 	padding: 0 0 1em 0;
 	width: 30em;
 }
 
-@media only screen and (max-width: 650px) {
-	#contact p {
-		width: 22em;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	#contact p {
-		width: 15em;
-	}
-}
 
 #contact img {
 	margin: 2em 2em 1em 2em;
@@ -344,17 +280,6 @@ div h3{
 	width: 50%;
 }
 
-@media only screen and (max-width: 650px) {
-	#images img{
-		width: 100%;
-	}
-}
-
-@media only screen and (max-width: 425px) {
-	#images {
-		padding-top: 2.5em;
-	}
-}
 #footer_nav a:hover {
 	color: #52adad;
 }
@@ -376,7 +301,42 @@ div h3{
 	padding: 2em;
 }
 
-@media only screen and (max-width: 890px) {
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: " ";
+	font-size: 0;
+	height: 0;
+	visibility; hidden;
+}
+
+@media only screen and (max-width: 650px) {
+	form, input, textarea {
+		width: 22em;
+	}
+	
+	#header_nav a {
+		color: black;
+		padding: 1em;
+		margin: .5em;
+	}
+	
+	#contact h1, footer h1 {
+		width: 10em;
+		margin: auto;
+	}
+	#contact h2, footer h2 {
+		padding: 0 0 0 0;
+		visibility: hidden;
+	}
+	
+	#contact p {
+		width: 22em;
+	}
+
+	#images img{
+		width: 100%;
+	}
 	#footer_nav a {
 		font-family: 'montserat-l', sans-serif;
 		font-size: 14px;
@@ -388,18 +348,41 @@ div h3{
 }
 
 @media only screen and (max-width: 425px) {
+	form, input, textarea {
+		width: 15em;
+	}
+	
+	footer h2{
+		font-size: .7em;
+		letter-spacing: .2em;
+	}
+	
+	#header_nav {
+		border: none;
+		display: block;
+		text-align: center;
+		margin: .5em;
+	}
+	
+	#contact p {
+		width: 15em;
+	}
+	
+	#images {
+		padding-top: 2.5em;
+	}
+	
 	#footer_nav {
 		border-top: 1px solid #52adad;
 		border-bottom: 1px solid #52adad;
 		clear: both;
 	}
-}	
+}
 
-.clearfix:after {
-	display: block;
-	clear: both;
-	content: " ";
-	font-size: 0;
-	height: 0;
-	visibility; hidden;
+@media only screen and (max-width: 365px) {
+	#header_nav a {
+		color: black;
+		padding: .5em;
+		margin: .3em;
+	}
 }
