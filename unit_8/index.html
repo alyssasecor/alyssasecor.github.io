@@ -7,97 +7,110 @@
 </head>
 <body>
 	<header>
-		<nav id="header_nav">
-			<ul>
-				<li><a href="#background_logo">HOME</a></li>
-				<li><a href="#gallery">GALLERY</a>
-				<li><a href="#contact">CONTACT</a></li>
-			</ul>
+		<label id="menu_label" for "toggle">MENU</label>
+		<input type="checkbox" id="toggle">
+		<nav>
+			<a href="#" class="smoothScroll">home</a>
+			<a href="#" class="smoothScroll">gallery</a>
+			<a href="#" class="smoothScroll">contact</a>
 		</nav>
 	</header>
-	<section id="background_logo">
-		<section id="as_logo">
-			<img src="images/logo.png" alt="Alyssa Secor Logo">
-		</section>
+
+	<section id="banner">
+		<img id="my_logo" src="images/logo.png" alt="Alyssa Secor Logo">
 	</section>
 
-	<section id="gallery" class="clearfix">
-		<div id="logos">
-			<div id="logos_link">
-				<a href="logos.html"><h1>LOGOS</h1></a>
-			</div>
-			<div id="logos_description">
-				<img class="icons" src="images/logo_icon.png">
-				<h1>LOGOS</h1>
+	<section id="gallery">
+		<div class="container2">
+			<div class="container1">
+				<a class="col1" href="#">
+					<img src="images/logo_icon.png">
+				  	<h2>logos</h2>
 					<p>Logos are one of the most important aspects of a company's image. Logos are the first impression that a customer gets of a company. I help my clients design logos that make that first impression a good impression.</p>
+				</a>
+				<div class="col2">
+					<p>logos</p>
+					<img src="images/logos.jpg">
+				</div>
 			</div>
 		</div>
-		<div id="branding">
-			<div id="branding_description">
-				<img class="icons" src="images/branding_icon.png">
-				<h1>BRANDING</h1>
-				<p>Brochures, flyers, business cards, banners, and other branding materials are vitally important to a companies success. Creating consitant branding throughout all of these devices is something I strive to do in all my designs.</p>
-			</div>
-			<div id="branding_link">
-				<a href="branding.html"><h1>BRANDING</h1></a>
-			</div>
-		</div>
-		<div id="photography">
-			<div id="photography_link">
-				<a href="photography.html"><h1>PHOTOGRAPHY</h1></a>
-			</div>
-			<div id="photography_description">
-				<img class="icons" src="images/photography_icon.png">
-				<h1>PHOTOGRAPHY</h1>
-				<p>Unique, high quality images of your company or products can be used in many different ways. I aim to take photographs that capture my clients personality.</p>
+
+		<div class="container2">
+			<div class="container1">
+				<a class="col1" href="#">
+					<img src="images/branding_icon.png">
+				  	<h2>branding</h2>
+					<p>Brochures, flyers, business cards, banners, and other branding materials are vitally important to a companies success. Creating consitant branding throughout all of these devices is something I strive to do in all my designs.</p>
+				</a>
+				<div class="col2">
+					<p>branding</p>
+					<img src="images/branding.jpg">
+				</div>
 			</div>
 		</div>
-		<div id="projects">
-			<div id="projects_description">
-				<img class="icons" src="images/projects_icon.png">
-				<h1>FUN PROJECTS</h1>
-				<p>These projects showcase the more fun side of what I do. If you are in need of illustrations or animations I would love to work with you to create those. </p>
+
+		<div class="container2">
+			<div class="container1">
+				<a class="col1" href="#">
+					<img src="images/photography_icon.png">
+				  	<h2>photography</h2>
+					<p>Unique, high quality images of your company or products can be used in many different ways. I aim to take photographs that capture my clients personality.</p>
+				</a>
+				<div class="col2">
+					<p>photography</p>
+					<img src="images/photography.jpg">
+				</div>
 			</div>
-			<div id="projects_link">
-				<a href="projects.html"><h1>FUN PROJECTS</h1></a>
+		</div>
+		
+		<div class="container2">
+			<div class="container1">
+				<a class="col1" href="#">
+					<img src="images/projects_icon.png">
+				  	<h2>projects</h2>
+					<p>These projects showcase the more fun side of what I do. If you are in need of illustrations or animations I would love to work with you to create those. </p>
+				</a>
+				<div class="col2">
+					<p>projects</p>
+					<img src="images/projects.jpg">
+				</div>
 			</div>
 		</div>
 	</section>
-	
-	</section>
+
 	<section id="contact">
-		<a href="index.html"><img src="images/logo2.png" alt="A and S in a circle" class="smoothScroll"></a>
-		<h1>ALYSSA SECOR</h1>
+		<a href="#banner" class="smoothScroll"><img src="images/logo2.png" alt="Alyssa Secor's Logo"></a>
+		<h1>alyssa secor</h1>
 		<h2>LOGOS &#9679; BRANDING &#9679; PHOTOGRAPHY</h2>
 		<p>If you are interested in learning more about me I would love to hear from you! I am now accepting new clients.</p>
 		<p>If you are interested in viewing my resume, you can do so <a id="here" href="images/resume.pdf">here</a>.</p>
+
+		<div id="contact_form">
+			<h3>GET IN TOUCH:</h3>
+		 <form method="post" action="index.php">
+		         
+		     <label>Name</label>
+		     <input name="name" placeholder="Type Here">
+		             
+		     <label>Email</label>
+		     <input name="email" type="email" placeholder="Type Here">
+		             
+		     <label>Message</label>
+		     <textarea name="message" placeholder="Type Here"></textarea>
+
+		     <input id="submit" name="submit" type="submit" value="SUBMIT">
+		         
+		 </form>
+		</div>
+
 	</section>
-
-
-	<div>
-		<h3>GET IN TOUCH:</h3>
-	 <form method="post" action="index.php">
-	         
-	     <label>Name</label>
-	     <input name="name" placeholder="Type Here">
-	             
-	     <label>Email</label>
-	     <input name="email" type="email" placeholder="Type Here">
-	             
-	     <label>Message</label>
-	     <textarea name="message" placeholder="Type Here"></textarea>
-
-	     <input id="submit" name="submit" type="submit" value="SUBMIT">
-	         
-	 </form>
-	</div>
-
-
-	<nav id="footer_nav" class="clearfix">
-		<a href="index.html" class="smoothScroll">HOME</a>
-		<a href="#gallery" class="smoothScroll">GALLERY</a>
-		<a href="#contact" class="smoothScroll">CONTACT</a>
-	</nav>
+	<footer>
+		<nav>
+			<a href="#banner" class="smoothScroll">HOME</a>
+			<a href="#gallery" class="smoothScroll">GALLERY</a>
+			<a href="#contact" class="smoothScroll">CONTACT</a>
+		</nav>
+	</footer>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 </body>
