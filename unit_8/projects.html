@@ -5,14 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<body>
 	<header>
-		<nav id="header_nav">
-			<ul>
-				<li><a class="main_menu" href="index.html">HOME</a></li>
-				<li><a class="main_menu" href="index.html#gallery">GALLERY</a>
-				<li><a class="main_menu" href="index.html#contact">CONTACT</a></li>
-			</ul>
+		<label class="menu_label" for"toggle">MENU
+		<input type="checkbox" class="toggle">
+		<nav>
+			<a href="#banner" class="smoothScroll">home</a>
+			<a href="#gallery" class="smoothScroll">gallery</a>
+			<a href="#contact" class="smoothScroll">contact</a>
 		</nav>
+		</label>
 	</header>
 	<section id="images">
 		<img src="projects/brachiosaurus.jpeg">

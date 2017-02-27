@@ -122,10 +122,10 @@ footer nav a {
 	padding: 2em;
 }
 
-#toggle {
+.toggle {
 	display: none;
 }
-#toggle:checked + nav {
+.toggle:checked + nav {
 	display: inline-block;
 }
 
@@ -212,7 +212,7 @@ footer nav a {
 	background-color: rgb(82,173,173);
 }
 
-#contact img {
+#contact img, footer img {
 	padding-top: 3em;
 	width: 5em;
 }
@@ -223,13 +223,13 @@ footer nav a {
 	letter-spacing: .5em;
 }
 
-#contact h2 {
+#contact h2, footer h2 {
 	color: #52adad;
 	font-family: 'Lora', serif;
 	font-size: 1em;
 	font-weight: normal;
 	letter-spacing: .5em;
-	padding: 0 0 3em 0;
+	padding: 1em 0 3em 0;
 }
 
 
@@ -253,10 +253,6 @@ footer nav a {
 #here {
 	border-bottom: 1px solid #000;
 	color: #000;
-}
-
-#images {
-	padding-top: 4.5em;
 }
 
 #images img{
@@ -333,14 +329,14 @@ footer nav a {
 	}
 
 	.col1 img {
-		width: 100%
+		width: 100%;
+		position: static;
 	}
 
 	.col2 {
 		width:100%;
 		position: static;
 		transform: translateY(0%);
-		margin: 2em 0 2em 0;
 	}
 
 	.col2 p {
@@ -349,6 +345,7 @@ footer nav a {
 	}
 
 	.col2 img {
+		padding-top: 2em;
 		width: 15%;
 		padding-bottom: 1%;
 	}
@@ -408,10 +405,6 @@ footer nav a {
 		width: 15em;
 	}
 	
-	#images {
-		padding-top: 2.5em;
-	}
-	
 	footer nav {
 		border-top: 1px solid #52adad;
 		border-bottom: 1px solid #52adad;
@@ -433,6 +426,9 @@ footer nav a {
 	}
 	.col1 p, .col2 h2 {
 		font-size: 1.3em;
+	}
+	.col2 img{
+		padding-top: 1em;
 	}
 }
 
