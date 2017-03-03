@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@font-face {
+	font-family: montserat-r;
+	src: url(fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+	font-family: montserat-l;
+	src: url(fonts/Montserrat-ExtraLight.otf);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;	
+	padding: 0;
+}
+
+body {
+	font-family: 'montserat-l', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: rgba(255,255,255,.9);
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-size: 1.3em;
+	padding: 1em;
+	text-transform: uppercase;
+	margin: 0 2em 0 2em;
+}
+
+li a {
+	color: black;
+}
+li a:hover {
+	color: #52adad;
+}
+
+form label {
+    display:block;
+    margin-top:1em;
+    letter-spacing:2px;
+}
+
+form {
+    margin:0 auto;
+    width: 29em;
+}
+
+input, textarea {
+	background:#efefef;
+	border:1px solid #dedede;
+	color:#3a3a3a;
+	font-size: 1em;
+	height: 1.6875em;
+	padding:10px;
+	margin-top:3px;
+	width:28em;
+}
+
+textarea {
+	background: #efefef;
+	height:14em;
+}
+
+input, textarea {
+    background:#efefef;
+    border:1px solid #dedede;
+    border-radius:5px;
+    color:#3a3a3a;
+    font-size:1em;
+    height:3em;
+    margin-top:3px;
+    padding:10px;
+    width:28em;
+}
+form input:focus, textarea:focus {
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,.25);
+    outline: none;
+}
+
+footer nav a:hover {
+	color: #52adad;
+}
+
+footer nav {
+	border-top: 2px solid #52adad;
+	border-bottom: 2px solid #52adad;
+	clear: both;
+	display: inline-block;
+	margin: 3em 3em 3em 3em;
+}
+
+footer nav a {
+	color: black;
+	display: block;
+	float: left;
+	font-family: 'montserat-l', sans-serif;
+	letter-spacing: .5em;
+	padding: 2em;
+}
+
+#banner {
+	background: url(images/background.jpg);
+	background-size: cover;
+	position: relative;
+	height: 70vh;
+}
+
+#banner img {
+	margin-top: 2%;
+	border: .25em solid;
+	border-color: rgba(255,255,255,.8);
+	opacity: 0.8;
+	padding: 2em;
+	width: 30em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#submit {
+	margin-top:1em;
+	background-color: #52adad;
+	color: white;
+	width: 30%;
+}
+
+.container2 {
+	position:relative;
+	width: 100%;
+}
+.col1 {
+	float: left;
+	width: 50%;
+	position: relative;
+	line-height: 0;
+}
+
+.col1 img {
+	width: 100%;
+}
+.container2:nth-of-type(even) .col1 {
+	float:right;
+}
+.container2:nth-of-type(even) .col2 {
+	left:0;
+}
+.col2 {
+	width: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	left: 50%;
+}
+
+.col2 p {
+	width: 70%;
+	margin: auto;
+}
+
+.col2 img {
+	width: 15%;
+	padding-bottom: 1%;
+}
+
+.col2 h2 {
+	text-transform: uppercase;
+	padding-bottom: .5em;
+	letter-spacing: .5em;
+}
+
+.col1 p {
+	color: white;
+	font-size: 2.5em;
+	letter-spacing: .5em;
+	position: absolute;
+	background-color: rgba(82,173,173,.8);
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+	padding: .5em;
+	line-height: 1.5;
+}
+
+.col1 p:hover {
+	background-color: rgb(82,173,173);
+}
+
+#contact {
+	padding: 3em;
+}
+#contact img, footer img {
+	padding-top: 3em;
+	width: 5em;
+}
+
+#contact h1 {
+	text-transform: uppercase;
+	padding: 1em 0 .5em 0;
+	letter-spacing: .5em;
+}
+
+#contact h2, footer h2 {
+	color: #52adad;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: .5em;
+	padding: 1em 0 3em 0;
+}
+
+
+#contact p {
+	margin: auto;
+	padding: 0 0 1em 0;
+	width: 30em;
+}
+
+#contact_form h3{
+	background-color: #52adad;
+	color: white;
+	letter-spacing: .5em;
+	font-family: 'montserat-l', sans-serif;
+	padding: 1em;
+	width: 28em;
+	margin: 3em auto;
+	margin-bottom: 0;
+}
+
+#here {
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+
+#images img{
+	display: inline;
+	float: left;
+	margin: auto;
+	width: 50%;
+}
+
+.clearfix:after, .container2:after {
+	display: block;
+	clear: both;
+	content: " ";
+	font-size: 0;
+	height: 0;
+	visibility; hidden;
+}
+
+/*----------------------------------------------------*/
+
+
+@media only screen and (max-width: 1200px) {
+	.col1 p {
+		font-size: 2em;
+		letter-spacing: .5em;
+		padding: .5em;
+	}
+	header nav, header label {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	footer nav a {
+		font-family: 'montserat-l', sans-serif;
+		font-size: 14px;
+		float: none;
+		letter-spacing: .5em;
+		padding: 1em;
+		text-align: center;
+
+	}
+	.col1 p {
+		font-size: 1.5em;
+		letter-spacing: .5em;
+		padding: .5em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	li {
+		font-size: 1em;
+	}
+
+	#banner {
+		height: 50vh;
+	}
+
+	#banner img {
+		border: .15em solid;
+		border-color: rgba(255,255,255,.8);
+		width: 20em;
+	}
+
+	#contact {
+		padding: 1em;
+	}
+
+	.container2 {
+		width:100%;
+	}
+	.container1 {
+		width:100%;
+		position:static;
+	}
+	.col1 {
+		width:100%;
+		position:relative;
+	}
+
+	.col1 img {
+		width: 100%;
+	}
+
+	.col2 {
+		width:100%;
+		position: static;
+		transform: translateY(0%);
+	}
+	.col2 p {
+		margin-bottom: 2em;
+	}
+	.col2 img {
+		padding-top: 2em;
+		width: 15%;
+		padding-bottom: 1%;
+	}
+
+	.col1 p {
+		padding: 2%;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+@media only screen and (max-width: 650px) {
+	form, form input, textarea {
+		width: 22em;
+	}
+	
+	li {
+		margin: 0 1em 0 1em;
+	}
+
+	#banner {
+		height: 35vh;
+	}
+
+	#banner img {
+		width: 15em;
+		padding: 1.5em;
+	}
+
+	#contact_form h3 {
+		padding: 1em;
+		width: 20em;
+		margin: 3em auto;
+	}
+
+	#contact h1, footer h1 {
+		width: 10em;
+		margin: auto;
+	}
+	#contact h2, footer h2 {
+		padding: 0 0 0 0;
+		visibility: hidden;
+	}
+	
+	#contact p {
+		width: 22em;
+	}
+
+	#images img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	li {
+		margin: 0 .5em 0 .5em;
+	}
+
+	form, form input, textarea {
+		width: 15em;
+	}
+	
+	footer h2{
+		font-size: .7em;
+		letter-spacing: .2em;
+	}
+
+	#contact p {
+		width: 15em;
+	}
+	
+	footer nav {
+		border-top: 1px solid #52adad;
+		border-bottom: 1px solid #52adad;
+		clear: both;
+	}
+
+
+	#contact_form h3 {
+		padding: .5em;
+		width: 13em;
+		margin: 2em auto;
+	}
+
+	.col1 p, .col2 h2 {
+		font-size: 1.3em;
+	}
+	.col2 img{
+		padding-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	#contact_form h3 {
+		padding: 1em;
+		width: 10em;
+		margin: 3em auto;
+	}
+
+	li {
+		font-size: .8em;
+		margin: 0 .2em 0 .2em;
+	}
+}
+
