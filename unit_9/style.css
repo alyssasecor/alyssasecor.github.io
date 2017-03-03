@@ -127,7 +127,7 @@ footer nav a {
 	border-color: rgba(255,255,255,.8);
 	opacity: 0.8;
 	padding: 2em;
-	width: 30em;
+	width: 50%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -296,7 +296,7 @@ footer nav a {
 	}
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 750px){
 	li {
 		font-size: 1em;
 	}
@@ -308,7 +308,6 @@ footer nav a {
 	#banner img {
 		border: .20em solid;
 		border-color: rgba(255,255,255,.8);
-		width: 20em;
 	}
 
 	#contact {
@@ -361,13 +360,8 @@ footer nav a {
 		margin: 0 1em 0 1em;
 	}
 
-	#banner {
-		height: 35vh;
-	}
-
 	#banner img {
-		width: 15em;
-		padding: 1.5em;
+		width: 60%;
 	}
 
 	#contact_form h3 {
@@ -415,7 +409,7 @@ footer nav a {
 	}
 
 	#banner img {
-		margin-top: 1.5em;
+		width: 70%;
 	}
 
 	#contact p {
@@ -442,6 +436,10 @@ footer nav a {
 }
 
 @media only screen and (max-width: 365px) {
+	#banner img {
+		width: 80%;
+	}
+
 	#contact_form h3 {
 		padding: 1em;
 		width: 10em;
@@ -453,4 +451,3 @@ footer nav a {
 		margin: 0 .2em 0 .2em;
 	}
 }
-
