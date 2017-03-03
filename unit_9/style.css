@@ -141,6 +141,9 @@ footer nav a {
 	width: 30%;
 }
 
+#message input, textarea {
+	height: 7em;
+}
 .container2 {
 	position:relative;
 	width: 100%;
