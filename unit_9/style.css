@@ -435,6 +435,10 @@ footer nav a {
 	.col2 img{
 		padding-top: 1em;
 	}
+
+	#submit {
+		width: 40%;
+	}
 }
 
 @media only screen and (max-width: 365px) {
