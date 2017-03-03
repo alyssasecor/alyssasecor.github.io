@@ -122,7 +122,7 @@ footer nav a {
 }
 
 #banner img {
-	margin-top: 2%;
+	margin-top: 2em;
 	border: .25em solid;
 	border-color: rgba(255,255,255,.8);
 	opacity: 0.8;
@@ -306,7 +306,7 @@ footer nav a {
 	}
 
 	#banner img {
-		border: .15em solid;
+		border: .20em solid;
 		border-color: rgba(255,255,255,.8);
 		width: 20em;
 	}
@@ -408,16 +408,20 @@ footer nav a {
 		letter-spacing: .2em;
 	}
 
-	#contact p {
-		width: 15em;
-	}
-	
 	footer nav {
 		border-top: 1px solid #52adad;
 		border-bottom: 1px solid #52adad;
 		clear: both;
 	}
 
+	#banner img {
+		margin-top: 1.5em;
+	}
+
+	#contact p {
+		width: 15em;
+	}
+	
 
 	#contact_form h3 {
 		padding: .5em;
