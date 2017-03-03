@@ -17,7 +17,7 @@
 
 body {
 	font-family: 'montserat-l', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	text-align: center;
 }
 a {
@@ -273,17 +273,26 @@ footer nav a {
 
 
 @media only screen and (max-width: 1200px) {
+	body {
+		font-size: 18px;
+	}
+
+	header nav, header label {
+		font-size: 16px;
+	}
+
 	.col1 p {
 		font-size: 2em;
 		letter-spacing: .5em;
 		padding: .5em;
 	}
-	header nav, header label {
-		font-size: 16px;
-	}
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
+	body {
+		font-size: 16px;
+	}
+
 	footer nav a {
 		font-family: 'montserat-l', sans-serif;
 		font-size: 14px;
@@ -300,7 +309,7 @@ footer nav a {
 	}
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 800px){
 	li {
 		font-size: 1em;
 	}
