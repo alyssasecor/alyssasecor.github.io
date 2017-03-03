@@ -249,6 +249,10 @@ footer nav a {
 	color: #000;
 }
 
+#images {
+		padding-top: 4.5em;
+}
+
 #images img{
 	display: inline;
 	float: left;
@@ -314,6 +318,9 @@ footer nav a {
 		padding: 1em;
 	}
 
+	#gallery {
+		padding-top: 3em;
+	}
 	.container2 {
 		width:100%;
 	}
@@ -351,6 +358,15 @@ footer nav a {
 		transform: translateY(-50%);
 	}
 
+	#images {
+		padding-top: 3.5em;
+	}
+
+	#images img{
+		width: 100%;
+	}
+}	
+
 @media only screen and (max-width: 650px) {
 	form, form input, textarea {
 		width: 22em;
@@ -383,9 +399,6 @@ footer nav a {
 		width: 22em;
 	}
 
-	#images img{
-		width: 100%;
-	}
 }
 
 @media only screen and (max-width: 425px) {
@@ -449,5 +462,9 @@ footer nav a {
 	li {
 		font-size: .8em;
 		margin: 0 .2em 0 .2em;
+	}
+
+	#images {
+		padding-top: 2.5em;
 	}
 }
